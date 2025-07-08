@@ -1,0 +1,2 @@
+# Health Assistant
+This project aims to build a multi-purpose health assistant in C++ that can log meals, track symptoms, log daily health data (sleep, water intake, steps), and calculate a daily health bar percentage. The system is designed to allow users to log and monitor their health and get feedback on their daily habits. The project implements several key concepts, including object-oriented programming, dynamic memory management, and file handling. The user is able to interact with the program to input data and receive advice based on their health metrics.
