@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-all",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "main.cpp",
+        "user.cpp",
+        "MealLogger.cpp",
+        "SymptomChecker.cpp",
+        "HealthLogger.cpp",  // <-- Added HealthLogger
+        "-o",
+        "main.exe"
+      ],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c", "chcp 65001 &&"]
+        }
+      },
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "detail": "Build all project source files"
+    }
+  ]
+}
